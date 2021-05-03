@@ -1,4 +1,4 @@
-import pizzadefault from '/home/filipe/Documentos/desafiofocus/src/images/pizza-background.jpg';
+import pizzadefault from '../images/pizza-background.jpg';
 
 const pizza = [
    {
