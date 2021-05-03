@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import {StyledContainer} from '../DefaultSettings'
 import logo from '../images/ciao-logo.png'
+import ScrollButton from 'react-scroll-button'
 
 const StyledDiv = styled.div`
     width: 300px;
@@ -38,15 +39,22 @@ const StyledDivWithLogo = styled.div`
 
 const HeroSection = () => {
     return (
-            <StyledContainer reverse>
+            <StyledContainer reverse id="hero">
                 
-                <StyledDiv>
+                <StyledDiv >
                     
                 SOMOS APAIXONADOS POR BOA COMIDA E BUSCAMOS LEVAR UMA VIDA DESCOMPLICADA E CHEIA DE SABOR. FAZEMOS UM DOS PRATOS MAIS QUERIDOS DO MUNDO DO JEITO MAIS SIMPLES O NAPOLITANO. COM AS NOSSAS PIZZAS QUEREMOS DEIXAR VOCÊ UM POUCO MAIS PERTO DA ITÁLIA.
                     
                 </StyledDiv>
                 <StyledDivWithLogo/>
-
+                <ScrollButton 
+                behavior={'smooth'} 
+                buttonBackgroundColor={'white'}
+                buttonColor={''}
+                iconType={'arrow-up'}
+                style= {{fontSize: '15px'}}
+                targetId={'hero'}
+            />
             </StyledContainer>
 
   
