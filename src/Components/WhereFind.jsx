@@ -7,7 +7,6 @@ const WhereFind = () => {
             <h1>
                 Onde nos encontrar
             </h1>
-            
         </StyledContainer>
     )
 }

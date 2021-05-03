@@ -36,10 +36,9 @@ const StyledDivWithLogo = styled.div`
 
 
 
-
 const HeroSection = () => {
     return (
-            <StyledContainer>
+            <StyledContainer reverse>
                 
                 <StyledDiv>
                     

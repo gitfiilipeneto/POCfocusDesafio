@@ -12,12 +12,15 @@ export const StyledContainer = styled.div`
     align-items: center;
     background-color:black;
     @media (max-width: 780px){
-        flex-direction:column;
+        flex-direction: ${props => props.reverse? 'column-reverse':"column"};
     
     }
-        
+
+     
 
 `
+
+ 
 export const StyledTextsH1 = styled.h1`
   color: white;
 `
