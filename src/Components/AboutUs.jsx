@@ -31,7 +31,7 @@ const StyledDiv2 = styled.div`
     color:white;
     font-size: 13px;
     /* text-align: right; */
-    padding: 40px  ;
+    padding: 40px ;
     /* & p{
         text-align:center;
     } */
