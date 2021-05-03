@@ -7,7 +7,8 @@ import HeroSection from "./Components/HeroSection";
 
 import AboutUs from "./Components/AboutUs";
 import OurPizzas  from "./Components/OurPizzas";
-import WhereFind from "./Components/WhereFind";
+import Footer from "./Components/Footer";
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,8 +17,7 @@ ReactDOM.render(
       <HeroSection/>
       <AboutUs/>
       <OurPizzas/>
-      <WhereFind/>
-    
+      <Footer/>    
   </React.StrictMode>,
   document.getElementById("root")
 );

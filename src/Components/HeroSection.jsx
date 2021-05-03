@@ -47,6 +47,7 @@ const HeroSection = () => {
                     
                 </StyledDiv>
                 <StyledDivWithLogo/>
+                
                 <ScrollButton 
                 behavior={'smooth'} 
                 buttonBackgroundColor={'white'}
@@ -55,6 +56,7 @@ const HeroSection = () => {
                 style= {{fontSize: '15px'}}
                 targetId={'hero'}
             />
+            
             </StyledContainer>
 
   
