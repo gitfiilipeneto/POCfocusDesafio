@@ -20,6 +20,7 @@ const StyledDiv = styled.div`
      text-align:center;
      margin: 5px;
      font-size: 12px;
+     border: none;
     }
 `
 
