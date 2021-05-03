@@ -9,6 +9,7 @@ const StyledDiv = styled.div`
     /* border:solid white 2px; */
     margin-right: 2px;
     color:white;
+    font-size: 13px;
     text-align: right;
     padding: 70px 0;
 
@@ -42,7 +43,7 @@ const HeroSection = () => {
                 
                 <StyledDiv>
                     
-                    Somos apaixonados por boa comida e buscamos levar uma vida descomplicada e cheia de sabor. Fazemos um dos pratos mais queridos do mundo do jeito mais simples possível, o napolitano. Com as nossas pizzas queremos deixar você um pouco mais perto da Itália.
+                SOMOS APAIXONADOS POR BOA COMIDA E BUSCAMOS LEVAR UMA VIDA DESCOMPLICADA E CHEIA DE SABOR. FAZEMOS UM DOS PRATOS MAIS QUERIDOS DO MUNDO DO JEITO MAIS SIMPLES POSSÍVEL, O NAPOLITANO. COM AS NOSSAS PIZZAS QUEREMOS DEIXAR VOCÊ UM POUCO MAIS PERTO DA ITÁLIA.
                     
                 </StyledDiv>
                 <StyledDivWithLogo/>
