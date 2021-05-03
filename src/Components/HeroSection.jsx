@@ -6,7 +6,7 @@ import logo from '../images/ciao-logo.png'
 const StyledDiv = styled.div`
     width: 300px;
     height: 300px;
-    /* border:solid white 2px; */
+    border-bottom:solid white 2px;
     margin-right: 2px;
     color:white;
     font-size: 13px;
@@ -23,7 +23,7 @@ const StyledDiv = styled.div`
 const StyledDivWithLogo = styled.div`
     width: 600px;
     height: 300px;
-    /* border:solid white 2px; */
+    border-top:solid white 2px;
     margin: 5px;
     background-image: url(${logo});
         background-repeat: no-repeat;
