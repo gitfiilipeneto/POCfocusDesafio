@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const StyledContainer = styled.div`
+export const StyledContainer = styled.div`
     
     height: 100vh;
     max-height: 100%;    
@@ -17,4 +17,6 @@ const StyledContainer = styled.div`
         
 
 `
-export default StyledContainer
+export const StyledTextsH1 = styled.h1`
+  color: white;
+`

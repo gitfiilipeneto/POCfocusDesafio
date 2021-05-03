@@ -4,8 +4,9 @@ import { GlobalStyle } from "./Components/GlobalStyle"
 
 
 import HeroSection from "./Components/HeroSection";
-import Navbar from "./Components/Navbar";
+
 import AboutUs from "./Components/AboutUs";
+import OurPizzas  from "./Components/OurPizzas";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
     
       <HeroSection/>
       <AboutUs/>
+      <OurPizzas/>
     
   </React.StrictMode>,
   document.getElementById("root")
