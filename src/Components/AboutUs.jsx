@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {StyledContainer, StyledTextsH1} from "../DefaultSettings";
+import {StyledContainer} from "../DefaultSettings";
 
 
 const StyledDiv = styled.div`

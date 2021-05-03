@@ -13,6 +13,7 @@ export const StyledContainer = styled.div`
     background-color:black;
     @media (max-width: 780px){
         flex-direction:column;
+    
     }
         
 
