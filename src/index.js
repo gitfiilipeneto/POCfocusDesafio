@@ -7,6 +7,7 @@ import HeroSection from "./Components/HeroSection";
 
 import AboutUs from "./Components/AboutUs";
 import OurPizzas  from "./Components/OurPizzas";
+import WhereFind from "./Components/WhereFind";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <HeroSection/>
       <AboutUs/>
       <OurPizzas/>
+      <WhereFind/>
     
   </React.StrictMode>,
   document.getElementById("root")

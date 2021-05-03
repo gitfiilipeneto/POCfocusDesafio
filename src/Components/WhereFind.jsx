@@ -1,10 +1,14 @@
 import React from 'react'
+import {StyledContainer} from '../DefaultSettings'
 
 const WhereFind = () => {
     return (
-        <div>
+        <StyledContainer>
+            <h1>
+                Onde nos encontrar
+            </h1>
             
-        </div>
+        </StyledContainer>
     )
 }
 
